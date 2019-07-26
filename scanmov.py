@@ -17,13 +17,14 @@ def scanmov(Sx,Sy,Sz,scan,nlyr,feedrate,samplerate,distance,layernumber,layerhei
     #commands.append(toolchange) #use this only if a tool change command is necessary
     commands.append('G0 '+'X'+str(Sx)+' '+'Y'+str(Sy)+' '+'Z'+str(Sz+layernumber*layerheight)+' '+'\n')
     #commands.append(delay +"\n")
-    commands.append(relay)
+    commands.append(relay+"\n")
     commands.append(nlyr+"\n")
     #commands.append(delay+"\n")
     commands.append('G0'+' '+'F'+str(feedrate)+'\n')
     #Major Development Note: Figure out CR-10 axis directions, Assume X for now
     for i in np.arange(0,distance,samplerate):
         commands.append('G0 X'+str(Sx+i)+'\n')
+        commands.append(relay+"\n")
         #commands.append(delay+'\n')
         commands.append(scan+'\n')
        
@@ -33,7 +34,7 @@ def scanmov(Sx,Sy,Sz,scan,nlyr,feedrate,samplerate,distance,layernumber,layerhei
 def main():
     #toolchange="T2"
     scan=";G420" # Calls the required G-Code command to send 420 to the computer through the USB Interface
-    relay= ";M226 P30 1 \n"
+    relay= "M400"
     nlyr=";G69"  # Calls the required G-code command to send 69 to the computer through the USB interface
     feedrate= 6400
     samplerate=0.1
