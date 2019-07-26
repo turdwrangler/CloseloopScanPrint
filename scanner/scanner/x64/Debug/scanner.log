@@ -1,2 +1,4 @@
-﻿  scanner.cpp
-  scanner.vcxproj -> C:\Users\IRB1200\Desktop\Levi - What worked yesterday\scanner\x64\Debug\scanner.exe
+﻿  pch.cpp
+  scanner.cpp
+  LINK : C:\Users\IRB1200\Desktop\CloseloopScanPrint\scanner\x64\Debug\scanner.exe not found or not built by the last incremental link; performing full link
+  scanner.vcxproj -> C:\Users\IRB1200\Desktop\CloseloopScanPrint\scanner\x64\Debug\scanner.exe

@@ -81,7 +81,7 @@ int main()
 				for (int i = 6; i < vecProfileData.size() - 1; i++)
 				{
 					output[i]=vecProfileData[i]; // units in nm
-					cout<< vecProfileData[i] << endl; // units in nm
+					cout<< vecProfileData[i] << ','; // units in nm
 				}
 
 				LJV7IF_ClearMemory(lDeviceId);
