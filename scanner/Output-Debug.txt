@@ -1,0 +1,29 @@
+﻿'scanner.exe' (Win32): Loaded 'C:\Users\IRB1200\Desktop\TCPIP-Scanner\scanner\x64\Debug\scanner.exe'. Symbols loaded.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\ws2_32.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Users\IRB1200\Desktop\TCPIP-Scanner\scanner\scanner\LJV7_IF.dll'. Module was built without symbols.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9415_none_08e0c10ba840a28a\msvcr90.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\winusb.dll'. Cannot find or open the PDB file.
+The thread 0x320c has exited with code 0 (0x0).
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\mswsock.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Cannot find or open the PDB file.
+'scanner.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Cannot find or open the PDB file.
+The thread 0x2924 has exited with code 0 (0x0).
+The thread 0x3ce0 has exited with code 0 (0x0).
+The program '[0xE58] scanner.exe' has exited with code 0 (0x0).
